@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada do 7</title>
+</head>
+<body>
+    <h1>Tabuada escolhida</h1>
+    <div id="tabuada"></div>
+    <script>
+        let escolha = Number(prompt ("Digite o numero da tabuada:"))
+        for (let index = 1; index < 11; index++) {
+            document.getElementById("tabuada").innerHTML+= escolha +" X " + index + "=" + index * escolha + "<br>"
+        }
+        
+    </script>
+</body>
+</html>
